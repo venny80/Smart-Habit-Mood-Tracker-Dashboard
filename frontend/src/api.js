@@ -2,7 +2,7 @@
 // Use import.meta.env.VITE_MODE and VITE_API_URL to configure.
 
 export const MODE = import.meta.env.VITE_MODE || 'api';
-export const API_URL = import.meta.env.VITE_API_URL || 'https://smart-habit-mood-tracker-dashboard-mjmw.onrender.com/api';
+export const API_URL = 'https://smart-habit-mood-tracker-dashboard-mjmw.onrender.com/api';
 
 // --- Mock data (frontend-only demo)
 const mockHabits = [
